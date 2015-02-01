@@ -1,7 +1,7 @@
 """
 The prime factors of 13195 are 5, 7, 13 and 29.
 
-What is the largest prime factor of the number 600851475143 ?
+What is the largest prime factor of the number 600851475143?
 """
 
 import time
@@ -32,8 +32,8 @@ def sieve(n):
 			s[i*i: n1: i] = [0] * len(xrange(i*i, n1, i))
 	return filter(None, s)
 
-num = 13195 # number to be factored
-answer = solve_it(num)
-print "The largest prime factor of %r is" % num, str(answer) + '.', '\n' # Note: this is very slowwwwwww
+# num = 13195 # number to be factored
+# answer = solve_it(num)
+# print "The largest prime factor of %r is" % num, str(answer) + '.', '\n' # Note: this is very slowwwwwww
 
-print "The result took", time.time() - start, "seconds to find.\n"
+# print "The result took", time.time() - start, "seconds to find.\n"
