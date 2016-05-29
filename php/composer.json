@@ -1,0 +1,14 @@
+{
+    "name": "kampsduac/project-euler",
+    "description": "PHP answers to Project Euler problems",
+    "authors": [
+        {
+            "name": "Kamps-Duac",
+            "email": "kamps.duac@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+    	"phpunit/phpunit": "5.3.*"
+    }
+}
