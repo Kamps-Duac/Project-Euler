@@ -6,11 +6,14 @@
  * Date: 5/30/16
  * Time: 1:48 PM
  */
+
+require_once '../src/euler01.php';
+
 class SumOfMultiplesTest extends PHPUnit_Framework_TestCase
 {
-    public function testSampleCase()
+    public function testExampleCase()
     {
-        $solver = new SumOfMultiples();
+        $solver = new Euler\SumOfMultiples();
 
         $max = 10;
 
